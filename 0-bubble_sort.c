@@ -13,8 +13,8 @@ void bubble_sort(int *array, size_t size)
 {
 	size_t i;
 	size_t temp;
- 	bool comprovar = true;
-
+ 	bool comprovar = false;
+	
 	while (comprovar == false)
 	{
 	comprovar = true;
