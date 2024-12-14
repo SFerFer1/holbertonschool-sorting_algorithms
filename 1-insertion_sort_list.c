@@ -6,7 +6,6 @@
  *
  *
  */
-	void insertion_sort_list(listint_t **list)
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *current, *temp;
@@ -34,6 +33,7 @@ void insertion_sort_list(listint_t **list)
 
 			current->next = temp;
 			temp->prev = current;
+			print_array(array, size)
 		}
 		current = current->next;
 	}
